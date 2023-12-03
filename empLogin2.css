@@ -1,0 +1,50 @@
+#logo{
+    background-image: url("asset/logo.png");
+      height: 80.5px;
+      width: 80.5px;
+      margin-left: 38%;
+    /* Center and scale the image nicely */
+    margin-top: 5%;
+    background-size: cover;
+    }
+  .login {
+    width: 25%;
+    height: 470px;
+    margin-top: 3%;
+    padding: 50px;
+    text-align: center;
+    margin-left: 450px;
+    border: 1px solid;
+    box-shadow: rgba(0, 0, 0, 0.466) 10px 10px;
+  }
+  .header {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center; 
+  }
+  #id{
+    margin-top: 5%;
+  }
+  .button-login {
+    font-size: 0.9rem;
+    margin-top: 10%;
+    padding-right: 10%;
+  }
+  #b_Submit{
+    border-radius: 25px;
+    border-width: 0px;
+    height: 50px;
+    width: 345px;
+    background: #007bff;
+    color: white;
+  }
+  
+  #id, #password{
+    border-radius: 25px;
+    height: 50px;
+    width: 325px;
+    border-width: 0.5px;
+    padding-left: 5%;
+  }
+  #password{
+    margin-top: 5%;
+  }

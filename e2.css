@@ -1,0 +1,474 @@
+body{
+  background-image: url("asset/bg18.png");
+  /*background-repeat: no-repeat;*/
+
+  background-size: cover;
+/* Needed to position the navbar 
+position: relative;*/
+
+}
+
+.box{
+      margin-top: 2.3%;
+      margin-left: 5%;
+      background:white;
+      height: 586px;
+      width:90%;
+      border-radius: 20px 20px 20px 20px;
+      border-style: solid;
+      border-width: thin;
+      border-color: rgb(202, 202, 202)  ;
+}
+
+.nav img{
+  width: 70%;
+  max-height: 70%;
+  margin-top: 20%;
+  margin-left: 15%;
+}
+.nav{
+  margin-top: 1%;
+  width: 8%;
+  background-color: rgb(178, 255, 255);
+  height: 96%;
+  margin-left: 1%;
+  border-radius: 10px 10px 10px 10px;
+}
+
+ul{
+  list-style-type: none;
+  padding-left: 15%;
+  
+}
+#user{
+  margin-top: 60px;
+  margin-left: 30%;
+}
+.user {
+  
+  max-width: 20px;
+  height: 20px;
+} 
+#form{
+  margin-top: 60px;
+}
+.form{
+  max-width: 20px;
+  height: 20px;
+}
+#history{
+  margin-top: 60px;
+  margin-left: 30%;
+}
+.history{
+  max-width: 25px;
+  height: 25px;
+}
+#logout{
+  margin-left: 30%;
+}
+.logout{
+  padding-top: 140px;
+  max-width: 20px;
+  height: 20px;
+}
+li a.active {
+  background-color: white;
+  padding: 13px 45.5px 5px 13px;
+  border-radius: 25px 0px 0px 25px  ;
+}
+.nav2{
+  /*padding-top: 16px;*/
+  margin-left: 9.5%;
+  margin-top: 3.5%;
+  max-width: 77%;
+  margin-bottom: 0%;
+  bottom: 0%;
+ /* background-size: cover;
+  overflow: hidden;*/
+  position: absolute;
+  top: 0;
+  /*background-color: antiquewhite;*/
+}
+p{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: medium;
+  text-align: right;
+  text-align-last:right;
+}
+.name{
+  position: absolute;
+  top: 55px;
+  margin-left: 10%;
+  width: 50%;
+  text-align: center;
+  font-size: 16px;
+  /*background-color: whitesmoke;*/
+  font-family: 'Bahnschrift';
+  font-weight: bold;
+  /*left: 16px;*/  
+}
+.header img{
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: #7ab4c2;  
+    /*width: 50%;
+    max-height: 100%;
+    left: 9%;*/
+}
+.header{
+  top: 0%;
+  margin-top: 7%;
+  position: absolute;
+  margin-left: 40%;
+ 
+}
+.user {
+  margin-right: 10px;
+}
+
+.profile {
+  /*color: transparent;*/
+  /*transition: all .3s ease;*/
+  position: absolute;
+  /*transition: all .3s ease;
+  background-color: rgb(25, 24, 21);*/
+  margin-left: 20%;
+  margin-top: 7%;
+  top: 0%}
+
+  
+.profile input {
+    display: none;
+  }
+  
+ .profile img {
+  /*position: absolute;*/
+  object-fit: cover;
+  width: 105px;
+  height: 120px;
+ /* box-shadow: 0 0 10px 0 rgba(255,255,255,.35);
+  border-radius: 100px;
+  z-index: 0;*/
+
+  }
+  
+  .label {
+    cursor: pointer;
+    height: 130px;
+    width: 115px;
+    position:absolute;
+    text-align: center;
+   /*background-color: bisque;*/
+    color: black;
+    /*justify-content: center;
+    margin-left: 10%;*/
+    color: transparent;
+  }
+  .label:hover {
+      background-color: rgba(0,0,0,.8);
+      z-index: 10000;
+      color: rgb(250,250,250);
+      /*transition: background-color .2s ease-in-out;
+      border-radius: 100px;*/
+      margin-bottom: 0;
+      margin-right: 20%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 105px;
+  height: 120px;
+    }
+
+  .profile span{
+      display: inline-flex;
+      padding: .2em;
+      height: 2em;
+  }
+  .warning{
+    color:red;
+    position: absolute;
+    top: 0%;
+    margin-top: 16.7%;
+   left: 20%;
+  }
+
+  .box3{
+    background: #e1eaecc9;
+    position: absolute;
+      height: 350px;
+      width: 79%;
+      top: 0%;
+      margin-top: 18.9%;
+      margin-left: 9%;
+      border-radius: 10px 10px 10px 10px;
+     border-style: hidden;
+  }
+
+  form{
+    text-align: center;
+  }
+  h1{
+    font-size: 20.5px;
+  }
+  .section{
+    /*font-size: small;*/
+    padding-left: 845px;
+  }
+  .section2{
+    /*font-size: small;*/
+    padding-left: 815px;
+  }
+  .section3{
+    /*font-size: small;*/
+    padding-left: 785px;
+  }
+.student{
+ font-size: 20.5px;
+ font-weight: bold;
+}
+
+.intern{
+  font-size: 20.5px;
+  font-weight: bold;
+ }
+ .coordinator{
+  font-size:20.5px;
+  font-weight: bold;
+ }
+  hr{
+    margin-top: 1%;
+  }
+  .form-group2, .form-group3, .form-group4, .form-group5, .form-group6, .form-group7, .form-group8, .form-group14, .form-group15, .form-group16, .form-group17, .form-group18{
+    margin-top: 1%;
+  }
+ .form-group9{
+    margin-top: 0.8%;
+  }
+  .form-group10{
+    margin-top: 3%;
+  }
+  .form-group11{
+    margin-top: 3%;
+
+  }
+ .form-group12, .form-group13{
+    margin-top: 2%;
+  }
+  .form-group{
+    margin-left: 6.8%;
+
+  }
+  .form-group2{
+    margin-left: 0.9%;
+  }
+  .form-group3{
+    margin-right: 6%;
+  }
+  .form-group4{
+    margin-left: 2.2%;
+  }
+  .form-group5{
+    margin-left: 4%;
+  }
+  .form-group6{
+    margin-left: 5.9%;
+  }
+  .form-group7{
+    margin-left: 0.9%;
+  }
+  .form-group8{
+    margin-left: 2.9%;
+  }
+  .form-group9{
+    padding-left: 22.6%;
+  }
+  .form-group11{
+    padding-left: 6%;
+  }
+  .form-group12{
+    padding-left: 8.3%;
+  }
+  .form-group13{
+    padding-left: 10.5%;
+  }
+  .form-group14{
+margin-top: 2%;  }
+  .form-group15{
+    padding-left: 7.7%;
+  }
+  .form-group16{
+    padding-left: 5%;
+  }
+  .form-group17{
+    padding-left: 2.1%;
+  }
+  .form-group18{
+    padding-left: 9%;
+  }
+  #address_l{
+    padding-left:13.9%
+  }
+  #address_l2{
+  padding-left:14.1%
+  }
+   #address_l3{
+    margin-left:15%
+  }
+  #programme{
+    margin-right: 5%;
+  }
+  #postcode_l{
+    margin-left:8.8%
+  }
+  #phone{
+    margin-right: 3.2%;
+  }
+  #city_l{
+    margin-left:13.9%
+  }
+ #gender{
+  margin-right: 5%;
+ }
+  #state_l{
+    margin-left:22.6%;
+  }
+ #status{
+   margin-right:0.45%
+ }
+  #beneficiary_l{
+    margin-left:15.85%;
+  }
+  #bdate{
+    margin-right:0.25%
+  }
+  #b_phone_l{
+    margin-left: 9.7%
+  }
+  #email{
+    margin-right: 60%;
+  }
+  #sdate{
+    margin-right: 10%;
+  }
+  #nameC{
+    margin-right:13%
+  }
+ #emailC{
+    margin-right:1%
+  }
+  #address2C_l{
+    margin-left: 14.2%
+  }
+  #phoneC{
+    margin-right:0.45%
+  }
+  #address3C_l{
+    margin-left: 14.35%
+  }
+  #ophone{
+    margin-right:0.3%
+  }
+  #postcodeC_l{
+    margin-left: 13.5%
+  }
+  /*#cityC{
+    margin-right:0.3%
+  }*/
+  #stateC_l{
+    margin-left: 17.5%
+  }
+  .btn{
+    border-radius: 10px;
+    border-width: 0px;
+    height: 30px;
+    width: 78px;
+    background: #007bff;
+    color: white; 
+    cursor: pointer;  
+  }
+  .button2{
+    margin-top: 2%;
+    padding-left: 10%;
+  }
+.button{
+  margin-top: 2%;
+  padding-left: 2%;
+}
+#previous_btn_personal_details{
+  margin-right: 2%;
+}
+#previous_btn_contact_details{
+  margin-right: 2%;
+
+}
+  .has-error
+  {
+   border-color:#cc0000;
+   background-color:#ffff99;
+  }
+  .popup {
+    position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* The actual popup */
+.popup .popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+ .mark{
+   color: red;
+ }
+
+ #personal_details, #contact_details{
+   display: none;
+ }
+
+ 

@@ -1,0 +1,249 @@
+body{
+  background-image: url("asset/bg18.png");
+  background-size: cover;
+}
+
+.container{
+  display: flex;
+  height: 100px;
+}
+
+.box{
+  margin-top: 2.3%;
+  margin-left: 5%;
+  background:white;
+  height: 586px;
+  width:90%;
+  border-radius: 20px 20px 20px 20px;
+  border-style: solid;
+  border-width: thin;
+  border-color: rgb(202, 202, 202) ;
+}
+
+img{
+  width: 70%;
+  max-height: 70%;
+  margin-top: 20%;
+  margin-left: 15%;
+}
+
+.nav{
+  margin-top: 1%;
+  width: 8%;
+  background-color: rgb(178, 255, 255);
+  height: 96%;
+  margin-left: 1%;
+  border-radius: 10px 10px 10px 10px;
+}
+
+ul{
+  list-style-type: none;
+  padding-left: 15%;
+}
+
+#form{
+  margin-top: 60px;
+  margin-left: 30%;
+}
+
+.user {
+  max-width: 20px;
+  height: 20px;
+} 
+
+#user{
+  margin-top: 60px;
+}
+
+.form{
+  max-width: 20px;
+  height: 20px;
+}
+
+#history{
+  margin-top: 60px;
+  margin-left: 30%;
+}
+
+.history{
+  max-width: 25px;
+  height: 25px;
+}
+
+#logout{
+  margin-left: 30%;
+}
+
+.logout{
+  padding-top: 140px;
+  max-width: 20px;
+  height: 20px;
+}
+
+li a.active {
+  background-color: white;
+  padding: 13px 37px 5px 13px;
+  border-radius: 25px 0px 0px 25px  ;
+}
+
+.nav2{
+  margin-left: 9.5%;
+  margin-top: 3.5%;
+  max-width: 77%;
+  position: fixed;
+  top: 0;
+}
+
+p{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: medium;
+  text-align: right;
+  text-align-last:right;
+}
+
+.name{
+  padding-left: 565px;
+  text-transform: capitalize;
+}
+
+.box2{
+  margin-top: 8.3%;
+  margin-left: 13.5%;
+  background: #E8F0F0;
+  height: 490px;
+  width:70%;
+  border-radius: 10px 10px 10px 10px;
+  position: absolute;
+  top: 0%;
+  border-style: solid;
+  border-width: thin;
+  border-color: whitesmoke;  
+  margin-bottom: 0%;
+  padding-bottom: 0%;
+}
+
+form, h1{
+  text-align: center;
+}
+
+#name{
+  text-transform: capitalize;
+}
+
+#email, #name{
+  padding-left: 2.1%;
+}
+
+#password{
+  padding-left: 5%;
+  border-radius: 25px;
+  height: 35px;
+  width: 275px;
+  border-width: 0.5px;
+  margin-right: 20%;
+}
+
+#email, #name{
+  border-radius: 25px;
+  height: 35px;
+  width: 530px;
+  border-width: 0.5px;
+  margin-right: 21%;
+}
+
+#phone{
+  width: 150px;
+  border-radius: 25px;
+  height: 35px;
+  border-width: 0.5px;
+  text-align: center;
+  margin-right: 48%;
+}
+
+#ic{
+  border-radius: 25px;
+  height: 35px;
+  width: 169px;
+  border-width: 0.5px;
+  text-align: center;
+  margin-left: 4%;
+}
+
+#gender{
+  border-radius: 25px;
+  height: 40px;
+  width: 175px;
+  border-width: 0.5px;
+  text-align: center;
+  margin-left: 4%;
+}
+    
+#bdate{
+  width: 145px;
+  border-radius: 25px;
+  height: 40px;
+  border-width: 0.5px;
+  text-align: center;
+  padding-left: 1.7%;
+  padding-right: 1.7%;
+  margin-right: 48%;
+}
+  
+.button-profile {
+  font-size: 0.9rem;
+  margin-left:62%;
+  position: fixed;
+  top: 86%;
+}
+
+#b_Profile{
+  border-radius: 15px;
+  border-width: 0px;
+  height: 35px;
+  width: 95px;
+  background: #007bff;
+  color: white; 
+  cursor: pointer;
+}
+
+.check{
+  margin-right: 50.5%;
+}
+
+.show{
+  margin-left: 2.5%;
+}
+
+table{
+  width: 90%;
+  line-height: 4;
+  margin-left:8%;
+}
+
+.form_name{
+  padding-left: 10%;
+}
+
+.form_mail{
+  padding-left: 9.5%;
+}
+
+.form_ic{
+  padding-left: 3%;
+}
+
+.form_gender{
+  padding-left: 9%;
+}
+
+.form_password{
+  padding-left: 5%;
+}
+
+.form_phone{
+  padding-left: 13%;
+}
+
+.form_bdate{
+  padding-left: 12.5%;
+}

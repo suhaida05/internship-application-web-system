@@ -1,0 +1,113 @@
+body{
+  background: rgb(178, 255, 255);
+}
+
+.container{
+  display: flex;
+  margin-bottom: 1%;
+}
+
+.image{
+  width: 50px;
+}
+
+img{
+  width: 350px;
+  height: 600px;
+  padding-left: 20%;
+  padding-top: 17px;
+  margin-left: 170px;
+}
+
+#logo{
+background-image: url("asset/logo.png");
+  height: 80.5px;
+  width: 80.5px;
+  margin-left: 42%;
+  background-size: cover;
+}
+
+.register {
+  background-color: white;
+  width: 40%;
+  height: 500px;
+  padding-top: 100%;
+  padding: 50px;
+  margin-left: 480px;
+  border-radius: 0px 15px 15px 0px;
+  margin-top: 1.28%;
+  text-align: center;
+}
+
+.header {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.button-register {
+  font-size: 0.9rem;
+  margin-top: 5%;
+}
+
+#b_Register{
+  border-radius: 25px;
+  border-width: 0px;
+  height: 40px;
+  width: 532px;
+  background: #007bff;
+  color: blanchedalmond;
+  cursor: pointer; 
+}
+
+#name{
+  text-transform: capitalize;
+  margin-top: 1%;
+}
+
+#password, #email, #name{
+  border-radius: 25px;
+  height: 35px;
+  width: 500px;
+  border-width: 0.5px;
+  padding-left: 5%;
+}
+
+#ic, #phone{
+  border-radius: 25px;
+  height: 35px;
+  width: 220px;
+  border-width: 0.5px;
+  padding-left: 5%;
+}
+
+#phone{
+  margin-left: 4.5%;
+}
+
+.text2{
+  margin-left: 6%;
+}
+
+#gender, #bdate{
+  border-radius: 25px;
+  height: 35px;
+  width: 220px;
+  border-width: 0.5px;
+  margin-left: 2%;
+  height: 40px;
+  width: 155px;
+  padding-left: 2%;
+}
+
+#password, #ic, #phone, #email{
+  margin-top: 5%;
+}
+
+.form-login3{
+  margin-top: 5%;
+}
+
+h1{
+  margin-bottom: 2%;
+}
+
+

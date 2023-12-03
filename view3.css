@@ -1,0 +1,232 @@
+body{
+    background: #999999;
+}
+
+img {
+    margin-top: 2.5%;
+    width: 15%;
+    max-height: 15%;
+    /*margin-left: 40%;*/
+}
+
+page {
+    background: white;
+    display: block;
+    margin: 0 auto;
+    /*margin-top:1%;
+    margin-bottom: 1%;*/
+    box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+}
+.page{
+    position: absolute;
+    top: 0%;
+    left: 0%; 
+    margin-left: 20%;
+}
+page[size="A4"] {  
+   
+    width: 21cm;
+    height: 29.7cm; 
+}
+
+.border{
+    border: solid black;
+    border-width: thin;
+    height: 93%;
+    width:  90%;
+    margin-top: 5%;
+    margin-left: 4.9%;
+    /*bottom: 0%;*/
+    position: absolute;
+    top: 0%;
+}
+
+h1{
+    margin-top: 4%;
+}
+
+h1, h2, h3{
+    margin-left: 3%;
+    font-size: 110%;
+}
+
+h2, h3{
+    margin-bottom: 0%;
+    margin-top: 3%;
+}
+
+.details, .details3{
+    width: 90%;
+    margin-left: 5%;
+}
+
+.details2{
+    font-size:80%;
+    font-family: Arial;
+}
+
+table{
+    font-size: 80%;
+    font-family: Arial;
+    line-height: 1.5;
+}
+
+
+td{
+    padding-left: 1%;
+}
+.bold{
+    font-weight: bold;
+}
+
+.name{
+    padding-left: 15%;
+}
+
+.program{
+    padding-left: 12.1%;
+}
+
+.ic{
+    padding-left: 6.6%;
+}
+
+.gender{
+    padding-left: 13.1%;
+}
+
+.marital{
+    padding-left: 1%;
+}
+
+.bdate{
+    padding-left: 8.5%;
+}
+
+.mail{
+    padding-left: 14.3%;
+}
+
+.address{
+    padding-left: 11.5%;
+}
+
+.postcode{
+    padding-left: 12.5%;
+}
+
+.city{
+    padding-left: 13%;
+}
+
+.state{
+    padding-left: 13.2%;
+}
+
+.beneficiary{
+    padding-left: 8.8%;
+}
+
+.b_phone{
+    padding-left: 3.4%;
+}
+
+.phone{
+    padding-left: 9.5%;
+}
+
+c_name{
+    padding-left: 20%;
+}
+
+.c_phone{
+    padding-left: 5%;
+}
+
+.office{
+    padding-left: 1.5%;
+}
+.c_address{
+    padding-left: 17.5%;
+}
+
+.c_postcode{
+    padding-left: 19%;
+}
+
+.c_city{
+    padding-left: 19%;
+}
+
+.c_state{
+    padding-left: 20.5%;
+}
+
+label{
+    font-weight: bold;
+}
+
+hr{
+    width: 79.5%;
+    margin-left: 10%;
+}
+
+
+
+.details2{
+    margin-right: 2.5%;
+}
+
+.e_date{
+    margin-right: 35%;
+}
+
+
+.print{
+    margin-left: 598px;
+}
+
+button{
+    cursor: pointer;
+}
+
+.button{
+    display: inline-block;
+    position: absolute;
+    margin-top: 1095px;
+    margin-left: 5%;
+}
+
+@media print {
+    /*html, body {height: 100%; background: black;}
+    body {
+        background-color: white;
+    } */
+    .page{
+        position: absolute;
+        /*margin-top: 2%;*/
+        top: 0%;
+        left: 0%; 
+        right: 0%;
+        bottom: 0%;
+        margin-left: 0%;
+        /*padding-right: 20%;*/
+    }
+
+    page[size="A4"] {  
+   
+        width: 21cm;
+        height:30.6cm; 
+    }
+
+    page {
+        background-color: white;
+        box-shadow:none;   
+    }
+
+    button{
+        display: none;
+    }
+  }
+
+ 

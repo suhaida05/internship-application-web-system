@@ -1,0 +1,310 @@
+body{
+  background-image: url("asset/bg18.png");
+  /*background-repeat: no-repeat;*/
+
+  background-size: cover;
+/* Needed to position the navbar 
+position: relative;*/
+
+}
+.container{
+  display: flex;
+  height: 100px;
+}
+.box{
+      margin-top: 2.3%;
+      margin-left: 5%;
+      background:white;
+      height: 586px;
+      width:90%;
+      border-radius: 20px 20px 20px 20px;
+      border-style: solid;
+      border-width: thin;
+      border-color: rgb(202, 202, 202)  ;
+}
+
+.nav img{
+  width: 70%;
+  max-height: 70%;
+  margin-top: 20%;
+  margin-left: 15%;
+}
+.nav{
+  margin-top: 1%;
+  width: 8%;
+  background-color: rgb(178, 255, 255);
+  height: 96%;
+  margin-left: 1%;
+  border-radius: 10px 10px 10px 10px;
+}
+
+ul{
+  list-style-type: none;
+  padding-left: 15%;
+  
+}
+#user{
+  margin-top: 60px;
+  margin-left: 30%;
+}
+.user {
+  
+  max-width: 20px;
+  height: 20px;
+} 
+#form{
+  margin-top: 60px;
+}
+.form{
+  max-width: 20px;
+  height: 20px;
+}
+#history{
+  margin-top: 60px;
+  margin-left: 30%;
+}
+.history{
+  max-width: 25px;
+  height: 25px;
+}
+#logout{
+  margin-left: 30%;
+}
+.logout{
+  padding-top: 140px;
+  max-width: 20px;
+  height: 20px;
+}
+li a.active {
+  background-color: white;
+  padding: 13px 45.5px 5px 13px;
+  border-radius: 25px 0px 0px 25px  ;
+}
+.nav2{
+  /*padding-top: 16px;*/
+  margin-left: 9.5%;
+  margin-top: 3.5%;
+  max-width: 77%;
+  margin-bottom: 0%;
+  bottom: 0%;
+ /* background-size: cover;
+  overflow: hidden;*/
+  position: absolute;
+  top: 0;
+  /*background-color: antiquewhite;*/
+}
+p{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: medium;
+  text-align: right;
+  text-align-last:right;
+}
+.name{
+  position: absolute;
+  top: 55px;
+  margin-left: 10%;
+  width: 50%;
+  text-align: center;
+  font-size: 16px;
+  /*background-color: whitesmoke;*/
+  font-family: 'Bahnschrift';
+  font-weight: bold;
+  /*left: 16px;*/  
+}
+.header img{
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: #7ab4c2;  
+    /*width: 50%;
+    max-height: 100%;
+    left: 9%;*/
+}
+.header{
+  top: 0%;
+  margin-top: 7%;
+  position: absolute;
+  margin-left: 40%;
+ 
+}
+.user {
+  margin-right: 10px;
+}
+
+.profile {
+  /*color: transparent;*/
+  /*transition: all .3s ease;*/
+  position: absolute;
+  /*transition: all .3s ease;
+  background-color: rgb(25, 24, 21);*/
+  margin-left: 20%;
+  margin-top: 7%;
+  top: 0%}
+
+  
+.profile input {
+    display: none;
+  }
+  
+ .profile img {
+  /*position: absolute;*/
+  object-fit: cover;
+  width: 105px;
+  height: 120px;
+ /* box-shadow: 0 0 10px 0 rgba(255,255,255,.35);
+  border-radius: 100px;
+  z-index: 0;*/
+
+  }
+  
+  .label {
+    cursor: pointer;
+    height: 130px;
+    width: 115px;
+    position:absolute;
+    text-align: center;
+   /*background-color: bisque;*/
+    color: black;
+    /*justify-content: center;
+    margin-left: 10%;*/
+    color: transparent;
+  }
+  .label:hover {
+      background-color: rgba(0,0,0,.8);
+      z-index: 10000;
+      color: rgb(250,250,250);
+      /*transition: background-color .2s ease-in-out;
+      border-radius: 100px;*/
+      margin-bottom: 0;
+      margin-right: 20%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 105px;
+  height: 120px;
+    }
+
+  .profile span{
+      display: inline-flex;
+      padding: .2em;
+      height: 2em;
+  }
+  .warning{
+    color:red;
+    position: absolute;
+    top: 0%;
+    margin-top: 16.7%;
+    margin-left: 15%;
+  }
+
+  .box3{
+    background: #e1eaecc9;
+    position: absolute;
+      height: 350px;
+      width: 79%;
+      top: 0%;
+      margin-top: 18.9%;
+      margin-left: 9%;
+      border-radius: 10px 10px 10px 10px;
+     border-style: hidden;
+  }
+
+  form{
+    text-align: center;
+  }
+  h1{
+    font-size: 20.5px;
+  }
+  .section{
+    /*font-size: small;*/
+    margin-top: 2%;
+    padding-left: 845px;
+  }
+  .edit_form{
+    display: inline-flex;
+    margin-left: 1%;
+  }
+  hr{
+    margin-top: 0%;
+  }
+  
+  .popup {
+    position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* The actual popup */
+.popup .popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+ .mark{
+   color: red;
+ }
+ .tab {
+  display: none;
+}
+.step {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbbbbb;
+  border: none;  
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0.5;
+}
+
+.step.active {
+  opacity: 1;
+}
+
+/* Mark the steps that are finished and valid: */
+.step.finish {
+  background-color: #04AA6D;
+}

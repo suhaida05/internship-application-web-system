@@ -1,0 +1,181 @@
+body{
+    background-image: url("asset/bg18.png");
+    /*background-repeat: no-repeat;*/
+  
+    background-size: cover;
+  /* Needed to position the navbar 
+  position: relative;*/
+  
+}
+
+.box{
+    margin-top: 2.3%;
+    margin-left: 5%;
+    background:white;
+    height: 586px;
+    width:90%;
+    border-radius: 20px 20px 20px 20px;
+    border-style: solid;
+    border-width: thin;
+    border-color: rgb(202, 202, 202)  ;
+}
+  
+img{
+    width: 70%;
+    max-height: 70%;
+    margin-top: 20%;
+    margin-left: 15%;
+}
+
+.nav{
+    margin-top: 1%;
+    width: 8%;
+    background-color: rgb(178, 255, 255);
+    height: 96%;
+    margin-left: 1%;
+    border-radius: 10px 10px 10px 10px;
+}
+  
+ul{
+    list-style-type: none;
+    padding-left: 15%;
+}
+
+#user{
+    margin-top: 60px;
+    margin-left: 30%;
+}
+
+.user {    
+    max-width: 20px;
+    height: 20px;
+} 
+
+#form{
+    margin-top: 60px;
+    margin-left: 30%;
+}
+
+.form{
+    max-width: 20px;
+    height: 20px;
+}
+
+#history{
+    margin-top: 60px;
+}
+
+.history{
+    max-width: 25px;
+    height: 25px;
+}
+
+#logout{
+    margin-left: 30%;
+}
+
+.logout{
+    padding-top: 140px;
+    max-width: 20px;
+    height: 20px;
+}
+
+li a.active {
+    background-color: white;
+    padding: 16px 32px 5px 13px;
+    border-radius: 25px 0px 0px 25px  ;
+}
+
+.nav2{
+    /*padding-top: 16px;*/
+    margin-left: 9.5%;
+    margin-top: 3.5%;
+    max-width: 77%;
+   /* background-size: cover;
+    overflow: hidden;*/
+    position: fixed;
+    top: 0;
+    /*background-color: antiquewhite;*/
+}
+
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    text-align: right;
+    text-align-last:right;
+}
+
+.name{
+    padding-left: 565px;
+    text-transform: capitalize;
+}
+
+.box2{
+    margin-top: 9%;
+    margin-left: 9.5%;
+    background: #E8F0F0;
+    height: 482px;
+    width: 78%;
+    border-radius: 10px 10px 10px 10px;
+    position: absolute;
+    top: 0%;
+    border-style: solid;
+    border-width: thin;
+    border-color: whitesmoke;  
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+}
+
+h1{
+    text-align: center;
+}
+
+table{
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 96%;
+    margin-left: 2%;
+    margin-top: 1%;
+    table-layout: auto; 
+    text-align: center;
+ }
+  th, td{
+    border: 1px solid black;
+    padding: 1.5px;
+    font-size: 75%;
+  }
+  th:nth-child(1) {
+    width: 3%;
+}
+  th:nth-child(2) {
+    width: 15%;
+}
+th:nth-child(3) {
+    width: 7%;
+}
+th:nth-child(4) {
+    width: 7%;
+}
+th:nth-child(5) {
+  width: 7%;
+}  th:nth-child(6) {
+width: 10%;
+}  th:nth-child(7) {
+width: 10%;
+}
+th:nth-child(8) {
+width: 10%;
+}
+td img {
+/*margin-right: 10px;*/
+margin-left: 3px;
+margin-top: 2.5%;
+
+width:85px;
+ height:95px;
+}
+
+
+
+
+      

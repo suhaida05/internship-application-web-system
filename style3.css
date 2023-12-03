@@ -1,0 +1,460 @@
+body{
+    background-image: url("asset/bg18.png");
+    background-size: cover;
+}
+  
+.box{
+    margin-top: 2.3%;
+    margin-left: 5%;
+    background:white;
+    height: 586px;
+    width:90%;
+    border-radius: 20px 20px 20px 20px;
+    border-style: solid;
+    border-width: thin;
+    border-color: rgb(202, 202, 202)  ;
+}
+
+.nav img{
+    width: 70%;
+    max-height: 70%;
+    margin-top: 20%;
+    margin-left: 15%;
+}
+
+.nav{
+    margin-top: 1%;
+    width: 8%;
+    background-color: rgb(178, 255, 255);
+    height: 96%;
+    margin-left: 1%;
+    border-radius: 10px 10px 10px 10px;
+}
+  
+ul{
+    list-style-type: none;
+    padding-left: 15%;
+}
+
+#user{
+    margin-top: 60px;
+    margin-left: 30%;
+}
+
+.user {
+    max-width: 20px;
+    height: 20px;
+}
+
+#form{
+    margin-top: 60px;
+}
+
+.form{
+    max-width: 20px;
+    height: 20px;
+}
+  
+#history{
+    margin-top: 60px;
+    margin-left: 30%;
+}
+
+.history{
+    max-width: 25px;
+    height: 25px;
+}
+
+#logout{
+    margin-left: 30%;
+}
+
+.logout{
+    padding-top: 140px;
+    max-width: 20px;
+    height: 20px;
+}
+
+li a.act {
+    background-color: white;
+    padding: 13px 45.5px 5px 13px;
+    border-radius: 25px 0px 0px 25px  ;
+}
+
+.nav2{
+    margin-left: 9.5%;
+    margin-top: 3.5%;
+    max-width: 77%;
+    margin-bottom: 0%;
+    bottom: 0%;
+    position: absolute;
+    top: 0;
+}
+
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    text-align: right;
+    text-align-last:right;
+}
+
+.name{
+    position: absolute;
+    top: 45px;
+    margin-left: 10%;
+    width: 50%;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Bahnschrift';
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.header img{
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: #7ab4c2;  
+}
+
+.header{
+    top: 0%;
+    margin-top: 7%;
+    position: absolute;
+    margin-left: 40%;
+}
+
+.user {
+    margin-right: 10px;
+}
+  
+.profile {
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 7%;
+    top: 0%;
+}
+   
+.profile input {
+    display: none;
+}
+    
+.profile img {
+    object-fit: cover;
+    width: 105px;
+    height: 120px;
+}
+    
+.label {
+    cursor: pointer;
+    height: 130px;
+    width: 115px;
+    position:absolute;
+    text-align: center;
+    color: black;
+    color: transparent;
+}
+
+.label:hover {
+    background-color: rgba(0,0,0,.8);
+    z-index: 10000;
+    color: rgb(250,250,250);
+    margin-bottom: 0;
+    margin-right: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 105px;
+    height: 120px;
+}
+  
+.profile span{
+    display: inline-flex;
+    padding: .2em;
+    height: 2em;
+}
+
+.warn{
+    color:red;
+    position: absolute;
+    top: 0%;
+    margin-top: 16.7%;
+    left: 20%;
+}
+
+.box3{
+    background: #e1eaecc9;
+    position: absolute;
+    height: 350px;
+    width: 79%;
+    top: 0%;
+    margin-top: 18.9%;
+    margin-left: 9%;
+    border-radius: 10px 10px 10px 10px;
+    border-style: hidden;
+}
+    
+form{
+    text-align: center;
+}
+
+h1{
+    font-size: 20.5px;
+}
+
+.section{
+    padding-left: 845px;
+}
+
+.section2{
+    padding-left: 716px;
+}
+
+.section3{
+    padding-left: 800.5px;
+}
+
+.student{
+    font-size: 20.5px;
+    font-weight: bold;
+}
+    
+.intern{
+    font-size: 20.5px;
+    font-weight: bold;
+}
+
+.coordinator{
+    font-size:20.5px;
+    font-weight: bold;
+}
+
+hr{
+    margin-top: 0.5%;
+}
+
+#btn_login_details{
+ margin-left: 89%;
+}
+
+#btn_personal_details, #btn_contact_details{
+    margin-left: 2%;
+}
+
+.button2{
+    margin-left: 5%;
+}
+
+button {
+    border-radius: 10px;
+    border-width: 0px;
+    height: 35px;
+    width: 90px;
+    background: #007bff;
+    color: white; 
+    cursor: pointer;  
+}
+
+.main {
+    display: none
+}
+
+.active {
+    display: block !important
+}
+
+.mark{
+    color: red;
+}
+
+.warning {
+    border: 1px solid red !important
+}
+
+#name{
+    text-transform: capitalize;
+}
+
+.disabled{
+ color: grey;   
+}
+
+.edit_form{
+    margin-top: 0.5%;
+}
+
+table{
+    width: 90%;
+    line-height: 1.55;
+    margin-left: 5%;
+    margin-top: 1%;
+}
+
+table.table2{
+    width: 55%;
+    line-height: 3;
+    margin-left: 22%;
+    margin-bottom: 2%;
+}
+
+table.table3{
+    margin-top: 1.5%;
+    line-height: 2;
+    margin-bottom: 2.5%;
+    margin-right: 5%;
+}
+
+.tamat{
+    margin-left: 10%;
+}
+
+.form_name{
+    padding-left: 17.5%;
+}
+
+.form_ic{
+    padding-left: 11.5%;
+}
+
+.form_id{
+    padding-left: 5.1%;
+}
+
+.form_program{
+    padding-left: 14.6%;
+}
+
+.form_phone{
+    padding-left: 13.5%;
+}
+
+.form_gender{
+    padding-left: 16.5%;
+}
+
+.form_marital{
+    padding-left: 7.2%;
+}
+
+.form_bdate{
+    padding-left: 12.8%;
+}
+
+.form_mail{
+    padding-left: 17%;
+}
+
+.form_bphone{
+    padding-left: 8.5%;
+}
+
+.form_waris{
+    padding-left: 12.3%;
+}
+
+.form_state{
+    padding-left: 15%;
+}
+
+.form_city{
+    padding-left: 14.6%;
+}
+
+.form_postcode{
+    padding-left: 14.5%;
+}
+
+.form_address{
+    padding-left: 14.5%;
+}
+
+.form_address1{
+    padding-left: 13.2%;
+}
+
+#gender, #status{
+    width: 70.5%;
+    text-align: center;
+}
+
+#bdate{
+    width: 68.4%;
+    padding-left: 0.5%;
+}
+
+#name, #ic, #id, #programme, #phone, #gender, #status, #bdate, #email, #address,  #address2,  #address3, #postcode, #city, #state, #beneficiary, #b_phone{
+    margin-right: 24%;
+}
+
+.form-group10{
+    margin-top: 3%;
+}
+
+.form_letter{
+    padding-left: 8.5%;
+}
+
+.form_resume{
+    padding-left: 3.8%;
+}
+
+.form_transcript{
+    padding-left: 8.6%;
+}
+
+#mark{
+    margin-right: 0.5%;
+}
+
+#sdate, #edate{
+    margin-left: 0.5%;
+}
+
+#letter, #resume, #transcript{
+    margin-right: 6%;
+}
+
+.form_cname{
+    padding-left: 10%;
+}
+
+.form_cmail{
+    padding-left: 17.3%;
+}
+
+.form_cphone{
+    padding-left: 13.55%;
+}
+
+.form_office{
+    padding-left: 8.3%;
+}
+
+.form_caddress{
+    padding-left: 4%;
+}
+
+.form_caddress2{
+    padding-left: 5%;
+}
+
+.form_caddress3{
+    padding-left: 5.1%;
+}
+
+.form_cpostcode, .form_ccity{
+    padding-left: 5.3%;
+}
+
+.form_cstate{
+    padding-left: 5.5%;
+}
+
+#nameC, #addressC, #emailC, #address2C, #address3C, #phoneC, #ophone, #postcodeC, #cityC, #stateC{
+    margin-right: 35%;
+}
+
+#address, #address2, #address3, #state, #city, #programme, #nameC, #addressC, #address2C, #address3C, #cityC, #stateC, #beneficiary{
+    text-transform: capitalize;    
+}
+

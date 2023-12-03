@@ -1,0 +1,87 @@
+body{
+  background: rgb(178, 255, 255);
+}
+.container{
+  display: flex;
+  height: 100px;
+
+}
+.image{
+  width: 50px;
+  border-radius: 0px 15px 15px 0px;
+}
+img{
+  width: 400px;
+  height: 570px;
+  padding-left: 100%;
+  padding-top: 41px;
+  margin-left:200px;
+}
+#logo{
+background-image: url("asset/logo.png");
+  height: 80.5px;
+  width: 80.5px;
+  margin-left: 38%;
+/* Center and scale the image nicely */
+
+background-size: cover;
+}
+.login {
+  background-color: white;
+  width: 25%;
+  height: 470px;
+  margin-top: 3%;
+  padding: 50px;
+  margin-left: 600px;
+  border-radius: 0px 15px 15px 0px;
+}
+
+.header {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+}
+
+hr{
+  margin-top: 5%;
+}
+
+.button-login {
+  font-size: 0.9rem;
+  margin-top: 10%;
+  padding-right: 10%;
+}
+
+#b_Submit{
+  border-radius: 25px;
+  border-width: 0px;
+  height: 50px;
+  width: 345px;
+  background: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.text{
+  text-align: center;
+  margin-top: 10%;
+}
+
+#email, #password{
+  border-radius: 25px;
+  height: 50px;
+  width: 325px;
+  border-width: 0.5px;
+  padding-left: 5%;
+}
+
+#password{
+  margin-top: 5%;
+}
+
+.register{
+  margin-top: 2%;
+}
+
+#update, #register{
+  text-decoration:none;
+}

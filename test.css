@@ -1,0 +1,18 @@
+.circle{
+   background-color:antiquewhite;
+    border-radius: 50%;
+    width: 11%;
+    height: 21%;
+    display: inline-block;
+    line-height: 35px;
+    margin-right: 5px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+p{
+    margin-top: 17%;
+    font-size: 14px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}

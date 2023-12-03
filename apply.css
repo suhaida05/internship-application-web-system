@@ -1,0 +1,187 @@
+body{
+  background-image: url("asset/bg18.png");
+  /*background-repeat: no-repeat;*/
+
+  background-size: cover;
+/* Needed to position the navbar 
+position: relative;*/
+
+}
+.container{
+  display: flex;
+  height: 100px;
+}
+.box{
+      margin-top: 2.3%;
+      margin-left: 5%;
+      background:white;
+      height: 586px;
+      width:90%;
+      border-radius: 20px 20px 20px 20px;
+      border-style: solid;
+      border-width: thin;
+      border-color: rgb(202, 202, 202)  ;
+}
+
+.nav img{
+  width: 70%;
+  max-height: 70%;
+  margin-top: 20%;
+  margin-left: 15%;
+}
+.nav{
+  margin-top: 1%;
+  width: 8%;
+  background-color: rgb(178, 255, 255);
+  height: 96%;
+  margin-left: 1%;
+  border-radius: 10px 10px 10px 10px;
+}
+
+ul{
+  list-style-type: none;
+  padding-left: 15%;
+  
+}
+.fa-user {
+  margin-top: 50px;
+  margin-left: 30%;
+} 
+.fa-file-alt{
+  margin-top: 80%;
+}
+.fa-clock{
+  margin-top: 80%;
+  margin-left: 30%;
+  
+}
+.fa-sign-out-alt{
+  padding-top: 165px;
+  margin-left: 30%;
+}
+li a.active {
+  background-color: white;
+  padding: 10px 45.5px 10px 25px;
+  border-radius: 25px 0px 0px 25px  ;
+}
+.nav2{
+  /*padding-top: 16px;*/
+  margin-left: 9.5%;
+  margin-top: 3.5%;
+  max-width: 77%;
+  margin-bottom: 0%;
+  bottom: 0%;
+ /* background-size: cover;
+  overflow: hidden;*/
+  position: absolute;
+  top: 0;
+  /*background-color: antiquewhite;*/
+}
+p{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: medium;
+  text-align: right;
+  text-align-last:right;
+}
+.name{
+  position: absolute;
+  top: 55px;
+  margin-left: 10%;
+  width: 50%;
+  text-align: center;
+  font-size: 16px;
+  /*background-color: whitesmoke;*/
+  font-family: 'Bahnschrift';
+  font-weight: bold;
+  /*left: 16px;*/  
+}
+.header img{
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: #7ab4c2;  
+    /*width: 50%;
+    max-height: 100%;
+    left: 9%;*/
+}
+.header{
+  top: 0%;
+  margin-top: 7%;
+  position: absolute;
+  margin-left: 40%;
+}
+.fa-user-edit {
+  margin-right: 10px;
+}
+
+.profile {
+  /*color: transparent;*/
+  /*transition: all .3s ease;*/
+  position: absolute;
+  /*transition: all .3s ease;
+  background-color: rgb(25, 24, 21);*/
+  margin-left: 20%;
+  margin-top: 7.5%;
+  top: 0%}
+
+  
+.profile input {
+    display: none;
+  }
+  
+ .profile img {
+  /*position: absolute;*/
+  object-fit: cover;
+  width: 125px;
+  height: 140px;
+ /* box-shadow: 0 0 10px 0 rgba(255,255,255,.35);
+  border-radius: 100px;
+  z-index: 0;*/
+  }
+  
+  .label {
+    cursor: pointer;
+    height: 140px;
+    width: 125px;
+    position:absolute;
+    text-align: center;
+   /*background-color: bisque;*/
+    color: black;
+    /*justify-content: center;
+    margin-left: 10%;*/
+    color: transparent;
+  }
+  .label:hover {
+      background-color: rgba(0,0,0,.8);
+      z-index: 10000;
+      color: rgb(250,250,250);
+      /*transition: background-color .2s ease-in-out;
+      border-radius: 100px;*/
+      margin-bottom: 0;
+      margin-right: 20%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 140px;
+      width: 125px;
+    }
+
+  .profile span{
+      display: inline-flex;
+      padding: .2em;
+      height: 2em;
+  }
+  .warning{
+    color:red;
+  }
+  .box2{
+      background: white;
+      position: absolute;
+      height: 345px;
+      width: 78.5%;
+      top: 0%;
+      margin-top: 19.5%;
+      margin-left: 9.5%;
+      border-radius: 10px 10px 10px 10px;
+  }
+
